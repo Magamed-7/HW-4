@@ -146,3 +146,66 @@ header h1 {
     height: 53px;
     border: none;
 }
+
+/* Third section */
+
+.sec3 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+    padding: 60px 80px;
+    margin: 80px 0;
+}
+.third-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+}
+.third-right h1 {
+    font-size: 50px;
+    color: rgba(41, 45, 50, 1);
+}
+.third-right p {
+    font-size: 26px;
+    color: rgba(41, 45, 50, 1);
+}
+.third-right-in {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+    /* Third left */
+.third-left {
+    display: flex;
+    gap: 20px;
+    width: 60%;
+    overflow: auto;
+}
+.box {
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 90px;
+    min-width: 297px;
+    height: 403px;
+    position: relative;
+}
+.box p {
+    font-size: 26px;
+    font-weight: 700;
+    color: aliceblue;
+    position: absolute;
+    top: 305px;
+    left: 97px;
+}
+.box1 {
+    background-image: url(./7.png);
+}
+.box2 {
+    background-image: url(./8.png);
+}
+.box3 {
+    background-image: url(./9.png);
+}
