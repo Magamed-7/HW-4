@@ -1,6 +1,12 @@
 * {
     margin: 0;
 }
+
+
+button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
 header {
     background-image: url(./bg.png);
     background-position: center;
@@ -35,4 +41,72 @@ header h1 {
     color: aliceblue;
     text-align: center;
     padding-top: 200px;
+}
+
+/* Section 1 */
+
+.sec1 {
+    padding: 80px 60px;
+}
+.sec1 h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.sec1-cards {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    
+}
+
+.first-card {
+    width: 377px;
+    height: 489px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.15);
+    border: 0.5px solid #f1f1f1;
+    border-radius: 50px;
+}
+.first-card h2 {
+    font-size: 24px;
+    text-align: center;
+}
+.first-card-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-card-in span {
+    color: rgba(45, 137, 133, 1);
+    background-color: rgba(214, 237, 235, 1);
+    padding: 7px;
+    border-radius: 5px;
+}
+.first-card-in p {
+    color: rgba(0, 0, 0, 0.5);
+}
+.first-card-in2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-card-in2 p {
+    font-size: 24px;
+}
+.first-card-in2 p span {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+}
+.first-card-in2 button {
+    padding: 8px 16px;
+    background-color: rgba(23, 123, 165, 1);
+    color: aliceblue;
+    border: none;
+    border-radius: 40px;
 }
